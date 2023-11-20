@@ -1,0 +1,86 @@
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.home{
+    background-color: rgb(2, 2, 76);
+}
+
+.container-table{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subtitle{
+    color: rgba(0, 0, 184, 0.719);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-variant: small-caps;
+    background-color:rgb(81, 80, 80);
+    text-align: center;
+
+}
+
+
+.card-container{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 280px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    
+
+}
+
+.bot{
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 40px;
+    width: fit-content;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+    padding: 10px 22px;
+    display: block;
+    text-decoration: none;
+    color: blue;
+   
+}
+
+.bot:hover{
+    background: rgb(26, 197, 197);
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(79, 77, 77);
+
+}
+.nav-lista{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+}
+
+.nav-lista li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.bi{
+    width: 300px;
+}
